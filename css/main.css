@@ -15,15 +15,15 @@
 }
 
 /*basic styles*/
-html, body, .main {
+/*html, body, .main {
   height: 100%;
-}
-nav, section, footer {
+}*/
+nav {
   padding-left: 7.5%;
-  padding-right: 7.5%; }
-
-section {
+  padding-right: 7.5%;
+}
+/*section {
   padding-top: 100px;
   padding-bottom: 50px;
-  text-align: center; 
-}
+  text-align: center;
+}*/

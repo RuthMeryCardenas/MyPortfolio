@@ -1,3 +1,3 @@
 $().ready( _=> {
-  // Escribe aquí tu código
+  $(".button-collapse").sideNav();
 });

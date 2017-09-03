@@ -6,12 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ruth Mery Cardenas | Frontend Developer</title>
     <!-- Enlazando archivos css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="main">
-      <nav></nav>
+      <nav class="main-nav">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">INICIO</a></li>
+            <li><a href="#about-me">ACERCA DE MÍ</a></li>
+            <li><a href="#skills">HABILIDADES</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#contact">CONTÁCTO</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#home">INICIO</a></li>
+            <li><a href="#about-me">ACERCA DE MÍ</a></li>
+            <li><a href="#skills">HABILIDADES</a></li>
+            <li><a href="#projects">PROYECTOS</a></li>
+            <li><a href="#contact">CONTÁCTO</a></li>
+          </ul>
+        </div>
+      </nav>
       <section id="home"></section>
       <section id="about-me"></section>
       <section id="skills"></section>
