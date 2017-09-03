@@ -1,0 +1,29 @@
+/*color palette*/
+/*#6bccff, #f9a91a, #333333, #ffffff;*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700');
+.special-font {
+  font-family: 'Zilla Slab', serif;
+}
+
+/*reset styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*basic styles*/
+html, body, .main {
+  height: 100%;
+}
+nav, section, footer {
+  padding-left: 7.5%;
+  padding-right: 7.5%; }
+
+section {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center; 
+}
