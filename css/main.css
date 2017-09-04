@@ -15,15 +15,11 @@
 }
 
 /*basic styles*/
-/*html, body, .main {
-  height: 100%;
-}*/
 nav {
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
-/*section {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  text-align: center;
-}*/
+#home {
+  height: 2000px;
+  background-color: pink;
+}
