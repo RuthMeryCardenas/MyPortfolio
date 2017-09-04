@@ -27,11 +27,12 @@ nav {
   @extend .z-depth-1;
   background-color: transparent;
   box-shadow: none;
+  height: $navbar-height-mobile;
+  line-height: $navbar-line-height-mobile;
   position: fixed;
   top: 50px;
   width: 100%;
-  height: $navbar-height-mobile;
-  line-height: $navbar-line-height-mobile;
+  z-index: 998;
 
   a { color: $navbar-font-color; }
 
