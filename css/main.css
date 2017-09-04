@@ -15,11 +15,16 @@
 }
 
 /*basic styles*/
-nav {
+nav, section {
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
 #home {
-  height: 2000px;
-  background-color: pink;
+  height: 100vh;
+  background-image: url(../assets/img/bg-home.jpeg);
+  background-repeat: no-repeat;
+  background-position: center -45px;
+  background-size: cover;
+  /*color: $secondary-color;*/
+  width: 100%;
 }
