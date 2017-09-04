@@ -35,7 +35,7 @@
     float: none;
     line-height: $sidenav-line-height;
 
-    &.active { background-color: rgba(0,0,0,.125); }
+    &.active { background-color: $primary-color; }
   }
 
   li > a {
@@ -47,7 +47,7 @@
     line-height: $sidenav-line-height;
     padding: 0 ($sidenav-padding * 2);
 
-    &:hover { background-color: rgba(0,0,0,.05);}
+    &:hover { background-color: $primary-color;}
 
     &.btn, &.btn-large, &.btn-flat, &.btn-floating {
       margin: 10px 15px;

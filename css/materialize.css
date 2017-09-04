@@ -5343,17 +5343,17 @@ input[type=range]:focus::-ms-fill-upper {
     float: none;
     line-height: 48px; }
     .side-nav li.active {
-      background-color: rgba(0, 0, 0, 0.125); }
+      background-color: #4fc3f7; }
   .side-nav li > a {
     color: rgba(0, 0, 0, 0.87);
     display: block;
-    font-size: 14px;
+    font-size: 0.8571rem;
     font-weight: 500;
     height: 48px;
     line-height: 48px;
     padding: 0 32px; }
     .side-nav li > a:hover {
-      background-color: rgba(0, 0, 0, 0.05); }
+      background-color: #4fc3f7; }
     .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
       margin: 10px 15px; }
     .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-floating {
@@ -5377,7 +5377,7 @@ input[type=range]:focus::-ms-fill-upper {
     cursor: initial;
     pointer-events: none;
     color: rgba(0, 0, 0, 0.54);
-    font-size: 14px;
+    font-size: 0.8571rem;
     font-weight: 500;
     line-height: 48px; }
     .side-nav .subheader:hover {
@@ -5416,7 +5416,7 @@ input[type=range]:focus::-ms-fill-upper {
     .side-nav .user-view .email,
     .side-nav .userView .name,
     .side-nav .userView .email {
-      font-size: 14px;
+      font-size: 0.8571rem;
       line-height: 24px; }
     .side-nav .user-view .name,
     .side-nav .userView .name {
