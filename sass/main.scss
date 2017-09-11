@@ -1,0 +1,77 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:400,500,600,700');
+.special-font {
+  font-family: 'Zilla Slab', serif;
+}
+
+/*styles of materialize*/
+@import "materialize";
+
+//color palette
+//#6bccff, #f9a91a, #333333, #ffffff;
+
+/*reset styles*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*basic styles*/
+nav, section  {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+// section {
+//   position: relative;
+// }
+.home {
+  height: 100vh;
+  background-image: url(../assets/img/bg-home.jpeg);
+  background-repeat: no-repeat;
+  background-position: center -50px;
+  background-size: cover;
+  padding: 0;
+}
+.board{
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 100%;
+  &-text {
+    color: #ffffff;
+    width: 100%;
+    h1 {
+      color: #6bccff;
+      font-weight: 600;
+    }
+  }
+}
+
+
+/*media queries*/
+@media #{$small-and-down} {
+  .home {
+    background-position: -100px;
+  }
+  .board{
+    &-text {
+      h1 {
+        font-size: 3rem;
+      }
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+@media #{$medium-and-up} {
+  // styles for medium screens and larger
+}
+@media #{$medium-and-down} {
+  // styles for medium screens and down
+}
+@media #{$large-and-up} {
+  // styles for large screens and up
+}
+@media #{$extra-large-and-up} {
+  // styles for extra large screens and up
+}
